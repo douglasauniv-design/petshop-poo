@@ -8,7 +8,7 @@ import FirstScreen from "./view/FirstScreen";
 // =============================================================
 // Composição / Inversão de Controle (fluxo de controle):
 // esta é a camada que monta a árvore de dependências e injeta tudo.
-// As views NUNCA usam "new": recebem o que precisam pelo construtor.
+// As views não usam "new": recebem o que precisam pelo construtor.
 // (As entidades de domínio são criadas pelo controller; os repositórios,
 //  pelo Database. Aqui montamos os componentes do sistema.)
 // =============================================================

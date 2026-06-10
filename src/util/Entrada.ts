@@ -1,6 +1,6 @@
 import promptSync from "prompt-sync";
 
-// Centraliza a leitura do teclado COM validação. Boa prática: evita repetir
+// Centraliza a leitura do teclado com validação. Boa prática: evita repetir
 // parseInt/parseFloat em cada view e impede entradas inválidas
 // (vazio, fora da faixa, texto onde se espera número, etc.).
 export default class Entrada {

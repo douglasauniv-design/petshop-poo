@@ -1,4 +1,4 @@
-// Repositório GENÉRICO: funciona com qualquer tipo T.
+// Repositório genérico: funciona com qualquer tipo T.
 // Concentra a lógica de persistência (em memória), busca e ordenação.
 export default class Repositorio<T> {
     private itens: T[] = [];
